@@ -1,0 +1,163 @@
+@font-face {
+    font-family: davyfont;
+    src: url(LibreBaskerville-Italic.ttf);
+}
+@font-face {
+    font-family: davyfont2;
+    src: url(LibreBaskerville-Italic.ttf);
+}
+@font-face {
+    font-family: vgfont;
+    src: url(vg.otf);
+}
+
+body{
+    background-color: rgb(1, 1, 22);
+    border-style: none;
+    padding: 0 100px;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+
+}
+
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+   
+}
+
+.right ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-top: 30px;
+}
+
+.right li{
+    list-style: none;
+    font-weight: 900;
+    font-family: davyfont;
+}
+a{
+    text-decoration: none;
+    color: white;
+     
+    font-weight: 900;
+    font-family: davyfont;
+}
+
+a:hover{
+    color: greenyellow;
+}
+.hire{
+    background-color: rgb(255, 3, 3);
+    color: white;
+    border-radius: 2px;
+    text-align: center;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    font-size: 20px;
+    font-weight: 900;
+ 
+}
+
+h1{
+    font-family: davyfont2;
+    margin: 0;
+
+}
+h2{
+    padding: 0;
+     font-weight: 900;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h6{
+    margin-bottom: 0;
+}
+span{
+    color: red;
+    font-weight: 900;
+    font-size: 40px;
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 150px;
+   margin: 0;
+    font-family: davyfont;
+}
+.download{
+    background-color: greenyellow;
+    color: rgb(255, 3, 3);
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 5px 5px;
+    font-weight: 900;
+}
+.contact{
+    background-color: greenyellow;
+    color: rgb(255, 2, 2);
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 5px 5px;
+    font-weight: 900;
+}
+.next{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+     text-align: center;
+     padding-top: 10px;
+}
+.icons{
+    display: flex;
+    gap: 30px;
+    padding-top: 20px;
+    font-size: 30px;
+    color: greenyellow;
+}
+
+.ig:hover{
+    font-size: 32.5px;
+    color: red;
+}
+.x:hover{
+    font-size: 32.5px;
+}
+.github:hover{
+    font-size: 32.5px;
+}
+.linkedin:hover{
+    font-size: 32.5px;
+}
+.gmail:hover{
+    font-size: 32.5px;
+}
+
+
+
+.img{
+    width: 100%;
+    height: 80%;
+    border-radius: 50% 0px 50% 0px;
+    
+}
+.pi{
+    width: 300px;
+    height: 300px;
+}
+.abt{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.abth1{
+    text-align: center;
+    color: red;
+    font-family: vgfont;
+    font-size: 50px;
+    
+}
